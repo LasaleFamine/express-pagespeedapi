@@ -9,7 +9,7 @@ var config = {
       name: 'exp'
     },
     port: 8080,
-    //db: 'mongodb://localhost/cnservices-development'
+    //db: 'mongodb://localhost/'
   },
 
   test: {
@@ -18,7 +18,7 @@ var config = {
       name: 'exp'
     },
     port: 8080,
-    //db: 'mongodb://localhost/cnservices-development'
+    //db: 'mongodb://localhost/'
   },
 
   production: {
@@ -27,7 +27,7 @@ var config = {
       name: 'exp'
     },
     port: 8080,
-    //db: 'mongodb://localhost/cnservices-development'
+    //db: 'mongodb://localhost/'
   }
 };
 
