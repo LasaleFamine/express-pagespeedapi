@@ -1,0 +1,22 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "Services googleapis speed page test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "glob": "^7.0.0",
+    "googleapis": "^2.1.7",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
