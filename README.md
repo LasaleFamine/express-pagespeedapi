@@ -20,6 +20,7 @@ Simple NodeJs-Express application with the usage of the Google Page Speed Api.
 ```sh
 $ git clone https://gihub.com/LasaleFamine/express-pagespeedapi.git [optional name]
 $ npm install
+$ node app
 ```
 ## Usage
 ```
