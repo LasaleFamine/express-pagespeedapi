@@ -24,6 +24,6 @@ $ node app
 ```
 ## Usage
 ```
-yourserver.com/api/exp?url=http://example.com
+yourserver.com:8080/api/exp?url=http://example.com
 ```
 This will return a Json with all the data from Google Page Speed Api about the url you passed.
