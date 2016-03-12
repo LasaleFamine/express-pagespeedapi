@@ -6,5 +6,5 @@ var app = express();
 require('./config/express')(app, config);
 
 app.listen(config.port, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('Example app listening on port' +  config.port);
 });

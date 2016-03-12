@@ -22,6 +22,9 @@ $ git clone https://github.com/LasaleFamine/express-pagespeedapi.git [optional n
 $ npm install
 $ node app
 ```
+#### Cross Origin
+You may want change the **Access-Control-Allow-Origin** header of this webserver and allow your domain
+
 ## Usage
 ```
 yourserver.com:8080/api/exp?url=http://example.com
