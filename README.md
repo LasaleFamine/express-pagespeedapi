@@ -25,7 +25,16 @@ $ node app
 This will start the application in **development** mode.
 ## Configuration
 #### Cross Origin
-You may want change the **Access-Control-Allow-Origin** header of this webserver and allow your domain
+You may want change the **Access-Control-Allow-Origin** header of this webserver and allow your domain.
+Inside `/config/express.js`:
+```js
+res.setHeader('Access-Control-Allow-Origin', 'godev.space');
+```
+Change with:
+```js
+res.setHeader('Access-Control-Allow-Origin', '[yourDomainName]');
+```
+**Note:** you can also allow every Cross Origin request with `*` symbol, replacing your domain name.
 #### Root route
 You may want change your root path application.
 Inside `/app/routes/exp.routes.js`:
