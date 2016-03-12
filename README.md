@@ -57,3 +57,6 @@ Inside `/config/config.js` you can change the port for:
 yourserver.com:8080/api/exp?url=http://example.com
 ```
 This will return a Json with all the data from Google Page Speed Api about the url you passed.
+
+## Raccomandation
+I would suggest to run this application under a reverse-proxy webserver (easy setup with Nginx). I also suggest to run this app with [PM2](https://github.com/Unitech/pm2)  
